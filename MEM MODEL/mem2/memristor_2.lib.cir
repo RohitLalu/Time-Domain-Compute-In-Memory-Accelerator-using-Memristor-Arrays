@@ -1,0 +1,11 @@
+* Memristor Model (simplified example)
+.SUBCKT MEMRISTOR2 plus minus
+    .params Ron=100 Roff=10k Rinit=5k uv=1e-14 D=10n
+    * State variable integration
+    Cx x 0 1
+    Gx 0 x value={I(Vmem)*uv*Ron/D**2}
+    .ic V(x)={Rinit/Roff}
+    * Resistance behavior
+    Vmem plus minus 0
+    Gmem plus minus value={V(plus,minus)/(Ron*V(x) + Roff*(1-V(x)))}
+.ENDS MEMRISTOR
