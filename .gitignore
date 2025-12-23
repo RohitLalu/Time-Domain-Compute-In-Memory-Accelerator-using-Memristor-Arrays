@@ -1,1 +1,7 @@
+# SPICE / LTspice Ignore
 *.raw
+*.fft
+*.log
+*.plt
+*.net
+*.op.raw
