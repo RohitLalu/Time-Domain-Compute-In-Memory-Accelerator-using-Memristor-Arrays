@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red15\green111\blue1;\red0\green0\blue0;\red0\green0\blue255;
+}
+{\*\expandedcolortbl;;\cspthree\c21414\c49031\c13018;\cspthree\c0\c0\c0;\cspthree\c22\c0\c95960;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13860\viewh14300\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 * /Users/hello.welcometothisdevice/Desktop/memr/Time-Domain-Compute-In-Memory-Accelerator-using-Memristor-Arrays/mem _model/latch_cir.asc\
+.subckt latch_cir ana_clk clr glb_clk in_d1 in_d2 in_d3 in_d4 in_d5 in_d6 in_d7 in_d8 inp_memr d1 d2 d3 d4 d5 d6 d7 d8\cf3 \
+XU1 inp_memr ana_clk vss 0 N004 LT1720\
+V2 vss 0 3.3\
+A1 N004 0 glb_clk 0 0 0 N001 0 DFLOP\
+A2 N001 0 glb_clk 0 0 0 N003 0 DFLOP\
+A3 0 N001 N003 0 0 0 N002 0 XOR\
+A4 in_d5 0 N002 0 clr 0 d5 0 DFLOP\
+A5 in_d6 0 N002 0 clr 0 d6 0 DFLOP\
+A6 in_d7 0 N002 0 clr 0 d7 0 DFLOP\
+A7 in_d8 0 N002 0 clr 0 d8 0 DFLOP\
+A8 in_d1 0 N002 0 clr 0 d1 0 DFLOP\
+A9 in_d2 0 N002 0 clr 0 d2 0 DFLOP\
+A10 in_d3 0 N002 0 clr 0 d3 0 DFLOP\
+A11 in_d4 0 N002 0 clr 0 d4 0 DFLOP\
+\cf2 * neg edge detector\cf3 \
+\cf4 .lib LT1720.sub\cf3 \
+\cf4 .ends latch_cir\cf3 \
+}

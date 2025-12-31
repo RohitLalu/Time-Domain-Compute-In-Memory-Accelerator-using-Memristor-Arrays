@@ -1,0 +1,70 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal -96 -200 96 200
+WINDOW 0 0 -200 Bottom 2
+WINDOW -1 0 0 Left 0
+WINDOW -1 0 0 Left 2
+WINDOW 3 0 0 Left 2
+SYMATTR Prefix X
+SYMATTR ModelFile latch_cir.lib
+SYMATTR Value latch_cir
+PIN -96 -176 LEFT 8
+PINATTR PinName ana_clk
+PINATTR SpiceOrder 1
+PIN -96 -144 LEFT 8
+PINATTR PinName clr
+PINATTR SpiceOrder 2
+PIN -96 -112 LEFT 8
+PINATTR PinName glb_clk
+PINATTR SpiceOrder 3
+PIN -96 -80 LEFT 8
+PINATTR PinName in_d1
+PINATTR SpiceOrder 4
+PIN -96 -48 LEFT 8
+PINATTR PinName in_d2
+PINATTR SpiceOrder 5
+PIN -96 -16 LEFT 8
+PINATTR PinName in_d3
+PINATTR SpiceOrder 6
+PIN -96 16 LEFT 8
+PINATTR PinName in_d4
+PINATTR SpiceOrder 7
+PIN -96 48 LEFT 8
+PINATTR PinName in_d5
+PINATTR SpiceOrder 8
+PIN -96 80 LEFT 8
+PINATTR PinName in_d6
+PINATTR SpiceOrder 9
+PIN -96 112 LEFT 8
+PINATTR PinName in_d7
+PINATTR SpiceOrder 10
+PIN -96 144 LEFT 8
+PINATTR PinName in_d8
+PINATTR SpiceOrder 11
+PIN -96 176 LEFT 8
+PINATTR PinName inp_memr
+PINATTR SpiceOrder 12
+PIN 96 -112 RIGHT 8
+PINATTR PinName d1
+PINATTR SpiceOrder 13
+PIN 96 -80 RIGHT 8
+PINATTR PinName d2
+PINATTR SpiceOrder 14
+PIN 96 -48 RIGHT 8
+PINATTR PinName d3
+PINATTR SpiceOrder 15
+PIN 96 -16 RIGHT 8
+PINATTR PinName d4
+PINATTR SpiceOrder 16
+PIN 96 16 RIGHT 8
+PINATTR PinName d5
+PINATTR SpiceOrder 17
+PIN 96 48 RIGHT 8
+PINATTR PinName d6
+PINATTR SpiceOrder 18
+PIN 96 80 RIGHT 8
+PINATTR PinName d7
+PINATTR SpiceOrder 19
+PIN 96 112 RIGHT 8
+PINATTR PinName d8
+PINATTR SpiceOrder 20
