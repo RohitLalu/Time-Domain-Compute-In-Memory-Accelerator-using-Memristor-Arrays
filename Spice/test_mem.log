@@ -1,0 +1,21 @@
+LTspice 24.0.12 for Windows
+Circuit: * D:\Chip Design Studio IIITB\Memristor\test_mem.asc
+Start Time: Fri Dec 19 14:05:24 2025
+Error on line 1252 : r:u1:aux u1:x 0«:0» 1 g
+	 Unknown parameter "g"
+Error on line 1252 : r:u2:aux u2:x 0«:0» 1 g
+	 Unknown parameter "g"
+Error on line 1252 : r:u3:aux u3:x 0«:0» 1 g
+	 Unknown parameter "g"
+Error on line 1252 : r:u4:aux u4:x 0«:0» 1 g
+	 Unknown parameter "g"
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node RESET is floating.
+
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 105.508 seconds.
+

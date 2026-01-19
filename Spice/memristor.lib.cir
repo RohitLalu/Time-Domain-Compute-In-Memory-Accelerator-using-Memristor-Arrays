@@ -1,0 +1,15 @@
+.SUBCKT memristor Plus Minus PARAMS:
++  Ron=1K Roff=100K Rinit=80K D=10N uv=10F p=1
+
+*STATE EQUATION MODELLING*
+Gx 0 x value= {I(Emem)*uv*Ron/D^2*f(V(x),p)}
+Cx x 0 1 IC={(Roff-Rinit)/(Roff-Ron)}
+Raux x 0 1 G
+
+*Resistive Port Modelling*
+Emem plus aux value = {-I(Emem)*V(x)*(Roff-Ron)}
+Roff aux minus {Roff}
+
+*Window function modelling*
+.func f(x,p) = {1-(2*x-1)^(2*p)}
+.ENDS memristor
