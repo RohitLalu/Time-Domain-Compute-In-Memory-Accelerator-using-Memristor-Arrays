@@ -1,0 +1,43 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[11:48:31.275857] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: 
+Date:    Fri Jan 09 11:48:31 2026
+Host:    ece.nitk.edu.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*1physical cpu*Intel(R) Xeon(R) W-2245 CPU @ 3.90GHz 16896KB) (98393696KB)
+PID:     103964
+OS:      Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+
+[11:48:32.017872] Periodic Lic check successful
+[11:48:32.017874] Feature usage summary:
+[11:48:32.017875] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (19 seconds elapsed).
+
+WARNING: This version of the tool is 1295 days old.
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 30s, ST: 6s, FG: 6s, CPU: 5.9%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.0, cpu: 16, total: 93.8G, free: 84.4G}
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 32s, ST: 6s, FG: 6s, CPU: 5.3%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.0, cpu: 16, total: 93.8G, free: 84.4G}
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 33s, ST: 7s, FG: 7s, CPU: 5.3%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.0, cpu: 16, total: 93.8G, free: 84.4G}
+Abnormal exit.
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 34s, ST: -0s, FG: -0s, CPU: 5.3%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.0, cpu: 16, total: 93.8G, free: 84.4G}

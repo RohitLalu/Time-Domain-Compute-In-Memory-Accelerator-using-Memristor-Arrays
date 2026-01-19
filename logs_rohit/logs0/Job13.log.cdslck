@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rohit
+HostName                       ece.nitk.edu.in
+ProcessIdentifier              197477
+ProcessCreationTime_UTC        1768023964
+ProcessCreationTime_Readable   Sat Jan 10 11:16:04 2026 IST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/rohit/project/logs_rohit/logs0/Job13.log
+TimeEditLocked                 Sat Jan 10 11:16:04 2026 IST

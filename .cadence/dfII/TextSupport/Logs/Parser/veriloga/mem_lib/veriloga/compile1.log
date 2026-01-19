@@ -1,0 +1,16 @@
+Reading file:  /home/rohit/project/mem_lib/dac8/veriloga/veriloga.va
+Reading file: 
+        /home/install/SPECTRE211/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /home/install/SPECTRE211/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-1552): "analog_value = (din/256.0)<<--?  * V(vref);"
+        "/home/rohit/project/mem_lib/dac8/veriloga/veriloga.va", line 22:
+        Encountered left operand of type node for operator `/`. Specify a real
+        or an integer type operand instead.
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1075):
+        "/home/rohit/project/mem_lib/dac8/veriloga/veriloga.va", line 22:
+        Attempt to use uninitialized identifier `din'. Initialize identifier
+        `din' before using it.

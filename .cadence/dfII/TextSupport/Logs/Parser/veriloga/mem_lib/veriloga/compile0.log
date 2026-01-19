@@ -1,0 +1,13 @@
+Reading file:  /home/rohit/project/mem_lib/stan_mem/veriloga/veriloga.va
+Reading file: 
+        /home/install/SPECTRE211/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /home/install/SPECTRE211/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Warning from spectre during AHDL compile.
+    WARNING (VACOMP-1135):
+        "/home/rohit/project/mem_lib/stan_mem/veriloga/veriloga.va", line 91:
+        The variable 'rand_seed' is used and no value is assigned to it. The
+        default value is 0 for integer, 0.0 for real, and "" for string. If you
+        want to use a value other than the default value, assign a value to
+        this variable and then use it.

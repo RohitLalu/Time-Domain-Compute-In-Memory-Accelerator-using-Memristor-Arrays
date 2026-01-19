@@ -1,0 +1,52 @@
+[01/09 11:46:30      0s] 
+[01/09 11:46:30      0s] Cadence Innovus(TM) Implementation System.
+[01/09 11:46:30      0s] Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/09 11:46:30      0s] 
+[01/09 11:46:30      0s] Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+[01/09 11:46:30      0s] Options:	
+[01/09 11:46:30      0s] Date:		Fri Jan  9 11:46:30 2026
+[01/09 11:46:30      0s] Host:		ece.nitk.edu.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*Intel(R) Xeon(R) W-2245 CPU @ 3.90GHz 16896KB)
+[01/09 11:46:30      0s] OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+[01/09 11:46:30      0s] 
+[01/09 11:46:30      0s] License:
+[01/09 11:46:30      0s] 		[11:46:30.275833] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+[01/09 11:46:31      0s] 		invs	Innovus Implementation System	21.1	checkout succeeded
+[01/09 11:46:31      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[01/09 11:46:45      9s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+[01/09 11:46:47     10s] @(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+[01/09 11:46:47     10s] @(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+[01/09 11:46:47     10s] @(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+[01/09 11:46:47     10s] @(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+[01/09 11:46:47     10s] @(#)CDS: CPE v21.15-s076
+[01/09 11:46:47     10s] @(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+[01/09 11:46:47     10s] @(#)CDS: OA 22.60-p076 Wed May 18 13:45:29 2022
+[01/09 11:46:47     10s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[01/09 11:46:47     10s] @(#)CDS: RCDB 11.15.0
+[01/09 11:46:47     10s] @(#)CDS: STYLUS 21.12-s013_1 (08/15/2022 08:25 PDT)
+[01/09 11:46:47     10s] @(#)CDS: SystemPlanner-21.15Rel-8720 (21.15) (2022-08-22 18:31:54+0800)
+[01/09 11:46:47     10s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_102881_ece.nitk.edu.in_rohit_KQlxRP.
+
+[01/09 11:46:47     10s] Change the soft stacksize limit to 0.2%RAM (192 mbytes). Set global soft_stack_size_limit to change the value.
+[01/09 11:46:50     12s] 
+[01/09 11:46:50     12s] **INFO:  MMMC transition support version v31-84 
+[01/09 11:46:50     12s] 
+[01/09 11:46:50     12s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[01/09 11:46:50     12s] <CMD> suppressMessage ENCEXT-2799
+[01/09 11:46:50     12s] <CMD> getVersion
+[01/09 11:46:50     12s] <CMD> getVersion
+[01/09 11:46:50     12s] <CMD> getVersion
+[01/09 11:46:51     12s] [INFO] Loading PVS 22.20 fill procedures
+[01/09 11:46:51     12s] <CMD> win
+[01/09 11:47:09     13s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Fri Jan  9 11:47:09 2026
+  Total CPU time:     0:00:15
+  Total real time:    0:00:41
+  Peak memory (main): 1003.10MB
+
+[01/09 11:47:09     13s] 
+[01/09 11:47:09     13s] *** Memory Usage v#1 (Current mem = 1004.203M, initial mem = 483.871M) ***
+[01/09 11:47:10     13s] *** Message Summary: 0 warning(s), 0 error(s)
+[01/09 11:47:10     13s] 
+[01/09 11:47:10     13s] --- Ending "Innovus" (totcpu=0:00:13.8, real=0:00:40.0, mem=1004.2M) ---

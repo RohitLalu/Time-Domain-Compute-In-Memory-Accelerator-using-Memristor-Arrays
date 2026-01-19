@@ -1,0 +1,259 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 10/18/2022 20:11 (sjfdcl1032) $
+\o Sub version:		sub-version  s292 
+\o Arguments:		-unmapped -mpssession virtuoso661557 -mpshost ece.nitk.edu.in 
+\o Working Directory:	ece.nitk.edu.in:/home/rohit/project
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/rohit/project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/rohit/project/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(734 184 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a nrResizeWindow(cdsLibManager list(734 184 602 491))
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "m_array_v1"
+\a cdsLibManager->cellLineEdit->value = "m_array_v1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "curr_mirr_cap"
+\a cdsLibManager->cellLineEdit->value = "curr_mirr_cap"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w Warning: The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
+\a cdsLibManager->libListBox->value = "mem_lib"
+\a cdsLibManager->libLineEdit->value = "mem_lib"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

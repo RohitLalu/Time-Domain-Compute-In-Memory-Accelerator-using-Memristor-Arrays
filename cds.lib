@@ -1,0 +1,4 @@
+SOFTINCLUDE /home/install/IC618/share/cdssetup/cds.lib
+DEFINE something /home/rohit/project/something
+DEFINE memristor_array /home/rohit/project/memristor_array
+DEFINE mem_lib /home/rohit/project/mem_lib

@@ -1,0 +1,3 @@
+;; Auto save feature
+envSetVal("schematic" "autoSave" 'boolean t)
+envSetVal("schematic" "autoSaveInterval" 'int 5) 

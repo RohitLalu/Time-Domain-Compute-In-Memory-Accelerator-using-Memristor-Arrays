@@ -1,0 +1,26 @@
+// VerilogA for mem_lib, dac8, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+// 8-bit DAC behavioral model
+module dac8 (
+    input  [7:0] din,       // 8-bit digital input
+    input vref,      // Reference voltage (analog)
+	input vbias,
+    output vout       // Analog output
+);
+
+    // Declare analog nature for vref and vout
+    electrical vref, vbias, vout;
+
+    // Internal variables
+    real analog_value;
+
+    analog begin
+        
+        analog_value = V(vbias) + ( (din/256.0) * ( V(vref)-V(vbias) ) );
+        V(vout) <+ analog_value;
+    end
+endmodule
+
