@@ -266,8 +266,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Jan 11 21:11:33 2026</timestamp>
-			<uuid>{3021781b-7fb0-40bc-b963-6defa69dc7cd}</uuid>
+			<timestamp>Jan 19 20:24:27 2026</timestamp>
+			<uuid>{2e231a0b-87f9-48f9-9e28-b01413461800}</uuid>
 			<resultsname>/home/rohit/project/mem_lib/mem_test/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -276,7 +276,7 @@
 			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/ece.nitk.edu.in_rohit_211133748</localpsfdir>
+			<localpsfdir>/tmp/ece.nitk.edu.in_rohit_202427747</localpsfdir>
 			<psfdir>/home/rohit/simulation/mem_lib/mem_test/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/mem_lib/mem_test/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>

@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.01.10 05:21:52.050
-\# Local time: IST (UTC+05:30) 2026.01.10 10:51:52.050
+\# Program start time:     UTC 2026.01.19 14:53:28.172
+\# Local time: IST (UTC+05:30) 2026.01.19 20:23:28.172
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
 \o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
-\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece.nitk.edu.in -beanport 11300 -beanbinlog  -beanLogFile /home/rohit/project/logs_rohit/logs0/amps_Service5.log -mpssession virtuoso184616 -mpshost ece.nitk.edu.in -davinciService DaVinciService_184616_1768021306 -axlSession fnxSession3 -axlServiceIdFlag 5 -uuid 00ee8db7-68f5-4cc3-a0df-a5b1f2787c87 -heartbeat /dev/shm/swift-heartbeat.DACEC9IUBD -log /home/rohit/project/logs_rohit/logs0/Service5.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7A8AFD70FC06C84D6DA49E17886DD2246EF9C21B9F67D0227DAAD247CD36C87766E3A12FFC06BC4D0F826EF11DE8D52C00001E5A -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece.nitk.edu.in -beanport 11300 -beanbinlog  -beanLogFile /home/rohit/project/logs_rohit/logs0/amps_Service5.log -mpssession virtuoso1325638 -mpshost ece.nitk.edu.in -davinciService DaVinciService_1325638_1768833486 -axlSession fnxSession1 -axlServiceIdFlag 5 -uuid 33082806-fdad-4c59-917c-7b667d50f04f -heartbeat /dev/shm/swift-heartbeat.gkpBwkx910 -log /home/rohit/project/logs_rohit/logs0/Service5.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7A8AFD70FC06C84D6DA49E17886DD2246EF9C21B9F67D0227DAAD244CD35C87766E3A12FFC06BC4D0F8DCA79B960D52300001E49 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
 \# Host name (type):	ece.nitk.edu.in (x86_64)
 \# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5299 (1024x868)
+\# X display name (WxH):	:1637 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        620 MB
-\# Available memory:	    187,682 MB
+\# Initial sbrk value:	        630 MB
+\# Available memory:	    185,396 MB
 \# System memory:	    194,392 MB
-\# Maximum memory size:	    193,892 MB
-\# Max mem available:	    187,802 MB
+\# Maximum memory size:	    193,883 MB
+\# Max mem available:	    185,516 MB
 \# Initial memory used:	        120 MB
 \#        process size:	      1,831 MB
 \# Thread usage limits (effective/default):	maxthreads 384112/384112 maxload 16.00/16.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		rohit
 \o Working Directory:	ece.nitk.edu.in:/home/rohit/project
-\# Process Id:		190469
+\# Process Id:		1334572
 \o 
 \o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
@@ -67,7 +67,6 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         249 MB, process size 2,104 MB at UTC 2026.01.10 05:21:57.170
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -75,32 +74,37 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso184616, host=ece.nitk.edu.in). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1325638, host=ece.nitk.edu.in). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 190469 within 90 seconds is being processed...
-\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 3 seconds.
-\# [10:51:55.175497] Configured Lic search path (22.01-s002): 5280@14.139.1.126
+\o INFO (ELI-00304) The registration of the child 1334572 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 1 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 4 seconds.
+\# [20:23:32.175457] Configured Lic search path (22.01-s002): 5280@14.139.1.126
+\w *WARNING* The directory: '/home/rohit/project/memristor_array' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'memristor_array'.
+\w *WARNING* The directory: '/home/rohit/project/something' does not exist
+\w 	but was defined in libFile '/home/rohit/project/cds.lib' for Lib 'something'.
 \w *WARNING* envSetVal: Can't set the value of variable 'autoSave',
 \w 	in tool[.partition] 'schematic' - it has not been registered.
 \w *WARNING* envSetVal: Can't set the value of variable 'autoSaveInterval',
 \w 	in tool[.partition] 'schematic' - it has not been registered.
 \p > 
+\# Memory report: using         291 MB, process size 2,152 MB at UTC 2026.01.19 14:53:35.042
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 190469' to open it when Virtuoso freezes.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 1334572' to open it when Virtuoso freezes.
 \# (PerfDiag): Use backtrace from GLIBC.
 \i _axlRunServices()
-\# [10:51:57.459024] Periodic Lic check successful
-\# [10:51:57.459025] Feature usage summary:
+\# [20:23:35.287129] Periodic Lic check successful
+\# [20:23:35.287130] Feature usage summary:
 \o Loading simui.cxt 
-\o [2026-01-10 10:51:57.995 +0530] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "ece.nitk.edu.in", "processid": 190469, "logfile": "/home/rohit/project/logs_rohit/logs0/Service5.log"}
-\# Available memory:        187,681 MB at UTC 2026.01.10 05:22:08.043
-\# Memory report: Maximum memory size now 188,002 MB at UTC 2026.01.10 05:22:08.043
-\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.10 05:22:08.043
+\o [2026-01-19 20:23:35.300 +0530] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "ece.nitk.edu.in", "processid": 1334572, "logfile": "/home/rohit/project/logs_rohit/logs0/Service5.log"}
+\# Available memory:        185,395 MB at UTC 2026.01.19 14:53:43.421
+\# Memory report: Maximum memory size now 185,716 MB at UTC 2026.01.19 14:53:43.421
+\# Thread usage report: 22 active threads, active load 1.40 at UTC 2026.01.19 14:53:43.421
 \o Loading vdsil.cxt 
 \# Lic Summary:
-\# [10:56:59.298987] Cdslmd servers:5280@14.139.1.126
-\# [10:56:59.298994] Feature usage summary:
-\# Memory report: on exit            321 MB, process size 2,249 MB at UTC 2026.01.10 05:26:59.299
+\# [20:23:55.430850] Cdslmd servers:5280@14.139.1.126
+\# [20:23:55.430856] Feature usage summary:
+\# Memory report: on exit            321 MB, process size 2,249 MB at UTC 2026.01.19 14:53:55.430
 \# Memory report: peak usage         321 MB, process size 2,249 MB

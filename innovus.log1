@@ -1,0 +1,38 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v21.15-s110_1, built Fri Sep 23 13:08:12 PDT 2022
+Options:	
+Date:		Tue Jan 20 15:56:01 2026
+Host:		ece.nitk.edu.in (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (8cores*16cpus*Intel(R) Xeon(R) W-2245 CPU @ 3.90GHz 16896KB)
+OS:		Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+License:
+		[15:56:01.275857] Configured Lic search path (21.01-s002): 5280@14.139.1.126
+
+		invs	Innovus Implementation System	21.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (192 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getVersion
+<CMD> getVersion
+[INFO] Loading PVS 22.20 fill procedures
+<CMD> win
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Jan 20 16:02:05 2026
+  Total CPU time:     0:00:54
+  Total real time:    0:06:05
+  Peak memory (main): 1012.75MB
+
+
+*** Memory Usage v#1 (Current mem = 1009.344M, initial mem = 483.871M) ***
+*** Message Summary: 0 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:53.8, real=0:06:04, mem=1009.3M) ---
