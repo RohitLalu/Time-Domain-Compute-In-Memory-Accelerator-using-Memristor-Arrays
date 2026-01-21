@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Wed Jan 21 17:21:30 2026 IST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/rohit/project/mem_lib/m_t/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Wed Jan 21 17:59:17 2026 IST
+FilePathUsedToEditLock         /home/rohit/project/mem_lib/curr_mirr_cap/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Wed Jan 21 17:25:35 2026 IST

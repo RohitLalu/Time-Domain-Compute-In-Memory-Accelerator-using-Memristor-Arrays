@@ -1,3 +1,3 @@
 [Logging Service: 4]
-[2026-01-19 20:23:26.860 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/rohit/project/mem_lib/m_t_test/maestro/results/maestro"}
-[2026-01-19 20:23:26.860 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "ece.nitk.edu.in", "processid": 1334393, "logfile": "/home/rohit/project/logs_rohit/logs0/LoggingService4.log"}
+[2026-01-20 20:13:48.565 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/rohit/project/mem_lib/m_array_v1_maestro/maestro/results/maestro"}
+[2026-01-20 20:13:48.565 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "ece.nitk.edu.in", "processid": 1441041, "logfile": "/home/rohit/project/logs_rohit/logs0/LoggingService4.log"}

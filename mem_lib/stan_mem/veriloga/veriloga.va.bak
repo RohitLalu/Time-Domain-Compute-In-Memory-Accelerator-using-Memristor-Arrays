@@ -2,10 +2,10 @@
 `include "constants.vams"
 `include "disciplines.vams"
 
-module rram_v_1_0_0(TE, BE);
-    // electrical properties, top electrode TE, bottom electrode BE
-    inout       TE, BE;
-    electrical  TE, BE;
+module rram_v_1_0_0(TE, BE, gap_debug);
+
+	inout TE, BE, gap_debug;
+	electrical TE, BE, gap_debug;
 
     // Version Parameter
     parameter real    version      = 1.00 from(0:inf);
@@ -18,7 +18,7 @@ module rram_v_1_0_0(TE, BE);
     parameter real    kb      = `P_K;
     parameter real    q       = `P_Q;
 
-    // average switching fitting parameters g0, V0, I0, beta, gamma0
+
     parameter real    g0      = 0.25e-9 from(0:2e-9);
     parameter real    V0      = 0.25    from(0:10);
     parameter real    Vel0    = 10      from(0:20);
@@ -50,13 +50,13 @@ module rram_v_1_0_0(TE, BE);
     parameter real    F_min   = 1.4e9 from(0:3e9);
 
     // initial gap distance, gap_ini
-    parameter real    gap_ini = 2e-9 from(0:100e-10);
+    parameter real    gap_ini = 1.7e-9 from(0:100e-10);
     
     // minimum gap distance, gap_min
     parameter real    gap_min = 2e-10 from(0:100e-10);
 
     // maximum gap distance, gap_max
-    parameter real    gap_max = 17e-10 from(0:100e-10);
+    parameter real    gap_max = 17e-9 from(0:100e-10);
 
     // thermal resistance
     parameter real    Rth     = 2.1e3 from(0:inf);
@@ -133,5 +133,6 @@ module rram_v_1_0_0(TE, BE);
         
         // Final Contribution
         I(TE,BE) <+ I0 * limexp(-gap/g0) * sinh(Vtb/V0);
+		V(gap_debug) <+ gap * 1e9;
     end
 endmodule
