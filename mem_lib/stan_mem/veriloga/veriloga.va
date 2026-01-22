@@ -12,7 +12,7 @@ module rram_v_1_0_0(TE, BE, gap_debug);
     
     // Switch to select Standard Model (0) or Dynamic Model (1)
     // FIX: Changed comma to colon in range
-    parameter integer model_switch = 1    from[0:1]; 
+    parameter integer model_switch = 0    from[0:1]; 
 
     // The following constants have been pre-defined in the constants.vams
     parameter real    kb      = `P_K;
