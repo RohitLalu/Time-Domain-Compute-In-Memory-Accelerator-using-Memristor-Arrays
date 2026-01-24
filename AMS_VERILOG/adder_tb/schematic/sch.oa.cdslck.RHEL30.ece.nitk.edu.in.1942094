@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      rohit
 HostName                       ece.nitk.edu.in
-ProcessIdentifier              1388096
-ProcessCreationTime_UTC        1768890444
-ProcessCreationTime_Readable   Tue Jan 20 11:57:24 2026 IST
+ProcessIdentifier              1942094
+ProcessCreationTime_UTC        1769274953
+ProcessCreationTime_Readable   Sat Jan 24 22:45:53 2026 IST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /home/rohit/project/AMS_VERILOG/adder_tb/schematic/sch.oa.cdslck.dirlck
-TimeEditLocked                 Tue Jan 20 11:57:56 2026 IST
+TimeEditLocked                 Sat Jan 24 22:47:21 2026 IST
