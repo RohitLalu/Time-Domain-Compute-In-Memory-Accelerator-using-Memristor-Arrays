@@ -3,3 +3,6 @@ DEFINE something /home/rohit/project/something
 DEFINE memristor_array /home/rohit/project/memristor_array
 DEFINE mem_lib /home/rohit/project/mem_lib
 DEFINE AMS_VERILOG /home/rohit/project/AMS_VERILOG
+DEFINE avTech /home/install/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
+#Removed by ddDeleteObj: DEFINE sky130_tech_lib /home/rohit/project/sky130_tech_lib
+DEFINE sky130_tech_lib /home/rohit/project/sky130_tech_lib

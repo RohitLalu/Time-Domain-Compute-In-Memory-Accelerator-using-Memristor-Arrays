@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rohit
+HostName                       ece.nitk.edu.in
+ProcessIdentifier              1995040
+ProcessCreationTime_UTC        1769320146
+ProcessCreationTime_Readable   Sun Jan 25 11:19:06 2026 IST
+AppIdentifier                  /home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /home/rohit/project/.tmp_rohit/.unique_number_0_file
+TimeEditLocked                 Sun Jan 25 11:35:36 2026 IST

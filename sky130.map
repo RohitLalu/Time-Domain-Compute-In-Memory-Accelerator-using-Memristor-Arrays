@@ -1,0 +1,23 @@
+# SkyWater 130 Ultimate Map
+# LayerName  Purpose   Stream#  DataType
+nwell        drawing   64       0
+nwell        drawing   64       20
+diff         drawing   65       0
+diff         drawing   65       20
+tap          drawing   78       44
+poly         drawing   66       0
+poly         drawing   66       20
+li1          drawing   67       0
+li1          drawing   67       20
+licon        drawing   66       44
+mcon         drawing   67       44
+met1         drawing   68       0
+met1         drawing   68       20
+met2         drawing   69       0
+met2         drawing   69       20
+met3         drawing   70       0
+prBndry drawing     201     20
+prBndry drawing     235     0
+prBndry drawing     235     4
+prBndry drawing     236     0
+
